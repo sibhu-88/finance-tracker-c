@@ -1,0 +1,30 @@
+# ---- Build output ----
+bin/
+*.o
+*.obj
+*.exe
+*.out
+
+# ---- Local data (NEVER commit personal finances) ----
+data/*.dat
+data/*.tmp
+data/*.bak
+data/imports.log
+
+# ---- Test artifacts ----
+test/tmp/
+*.log
+
+# ---- Editor / OS ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ---- Debug artifacts ----
+*.dSYM/
+vgcore.*
+core
